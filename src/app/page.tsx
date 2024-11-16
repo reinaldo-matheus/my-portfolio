@@ -1,17 +1,38 @@
-import Image from "next/image";
+import { Header } from "./components/header/header";
+import "./styles/home.scss";
 
 export default function Home() {
   return (
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <main className="container">
+      <Header/>
+      <div className="experience">
+        <h3>Experience</h3>
+        <p>texto</p>
+        <div className="experince-time">
 
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
+        </div>
+        <div className="infos">
+          <h3>Languages</h3>
+          <div className="languages-info">
+            <span>🇺🇸 EN: Intermediary</span>
+            <span>ES: Intermediary</span>
+            <span>🇧🇷 PT-BR: Native Speaker</span>
+          </div>
+          <h3>Education</h3>
+          <div className="educational-info">
+            <span>🎓</span>
+            <span>texto</span>
+          </div>
+          <span></span>
+        </div>
+      </div>
+      <div className="buttons">
+        <div className="social">
+
+        </div>
+        <button>contact me</button>
+      </div>
+    
 
       </main>
     
