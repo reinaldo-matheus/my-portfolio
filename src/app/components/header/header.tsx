@@ -15,6 +15,6 @@ export function Header() {
                 height={310}
                 priority
             />
-            </div>
-            )
+        </div>
+    )
 }
