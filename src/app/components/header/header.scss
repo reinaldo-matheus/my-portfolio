@@ -1,9 +1,9 @@
 .header {
     display: flex;
     flex-direction: column;
-    grid-area: header;
     gap: 24px;
-
+    
+    grid-area: header;
 
     img {
         border-radius: 24px;

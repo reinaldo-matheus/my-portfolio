@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 500px;
+    gap: 24px;
 
     grid-area: experience;
 
-    p{
+    p {
         font-weight: 300;
         font-size: 18px;
         line-height: 28px;
@@ -14,10 +16,10 @@
     }
 
     @media (min-widht:768px) {
-        
+
         align-items: flex-start;
 
-        p{
+        p {
             font-size: 24px;
             line-height: 36px;
             text-align: start;
