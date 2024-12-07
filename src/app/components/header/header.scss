@@ -1,13 +1,14 @@
 .header {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    
     grid-area: header;
+    gap: 24px;
 
     img {
-        border-radius: 24px;
-
+        border-radius: 100%;
+        border: 2px solid white;
+        height: 300px;
+        width: 300px;
     }
 
     h1 {
@@ -46,6 +47,8 @@
         img {
             border-radius: 100%;
             border: 2px solid white;
+            height: 200px;
+            width: 200px;
 
         }
     }

@@ -10,10 +10,10 @@ export function SocialBtns(){
          <a href="">
            <InstaIcon/>
          </a>
-         <a href="">
+         <a href="https://www.linkedin.com/in/matheus-reinaldo/">
             <LinkedinIcon/>
          </a>
-         <a href="">
+         <a href="https://github.com/reinaldo-matheus">
             <GitHubIcon/>
          </a>
          
